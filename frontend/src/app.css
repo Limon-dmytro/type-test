@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: 
+    radial-gradient(circle at 20% 30%, rgba(253, 230, 138, 0.7) 0%, transparent 25%),
+    radial-gradient(circle at 80% 20%, rgba(253, 224, 71, 0.5) 0%, transparent 22%),
+    radial-gradient(circle at 70% 70%, rgba(254, 242, 138, 0.6) 0%, transparent 28%),
+    radial-gradient(circle at 20% 30%, rgba(253, 230, 138, 0.45) 0%, transparent 20%),
+    linear-gradient(135deg, #d8bce9 0%, #d096e0 40%, #bc7cce);
+  background-attachment: fixed;
+}
